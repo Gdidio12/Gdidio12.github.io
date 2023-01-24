@@ -1,0 +1,32 @@
+p {
+    color:blueviolet;
+    width:30px;
+
+}
+* { background-color:black;
+}
+
+p {
+    border: 5px solid powderblue;
+    padding: 5px;
+  }
+h1 {
+    color: white;
+    border:10px solid whitesmoke;    
+    padding:5px;
+    margin: 10px;
+    font-weight:bold;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: red;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
